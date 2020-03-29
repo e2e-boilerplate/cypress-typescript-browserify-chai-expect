@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": [
+      "dom"
+    ],
+    "types": [
+      "node",
+      "chai",
+      "cypress"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "target": "es5"
+  }
+}
