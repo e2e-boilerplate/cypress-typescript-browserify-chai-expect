@@ -1,5 +1,12 @@
 const browserify = require("@cypress/browserify-preprocessor");
 
-module.exports = on => {
-  on("file:preprocessor", browserify());
+module.exports = (on) => {
+  const options = {
+    browserifyOptions: {
+      extensions: [".js", ".ts"],
+      plugin: [["tsify"]],
+    },
+  };
+
+  on("file:preprocessor", browserify(options));
 };
