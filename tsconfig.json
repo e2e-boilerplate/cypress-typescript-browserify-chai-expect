@@ -4,12 +4,12 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "lib": [
-      "dom"
+      "dom",
+      "es2015"
     ],
     "types": [
-      "node",
-      "chai",
-      "cypress"
+      "cypress",
+      "chai"
     ],
     "typeRoots": [
       "node_modules/@types"
