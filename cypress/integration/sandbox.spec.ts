@@ -7,6 +7,7 @@ describe("Sandbox", () => {
     cy.title().then((title) => {
       expect(title).to.eq("Sandbox");
     });
+
     cy.get("h1").then((header) => {
       expect(header).to.eq("Sandbox");
     });
