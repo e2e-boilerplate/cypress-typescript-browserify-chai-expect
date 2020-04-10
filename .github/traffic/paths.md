@@ -1,6 +1,6 @@
 | referrer                                                                                                   | count | uniques |
 | :--------------------------------------------------------------------------------------------------------- | :---- | :------ |
-| /e2e-boilerplate/cypress-typescript-browserify-chai-expect                                                 | 26    | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-expect                                                 | 27    | 2       |
 | /e2e-boilerplate/cypress-typescript-browserify-chai-expect/blob/master/cypress/integration/sandbox.spec.ts | 10    | 1       |
 | /e2e-boilerplate/cypress-typescript-browserify-chai-expect/actions                                         | 9     | 1       |
 | /e2e-boilerplate/cypress-typescript-browserify-chai-expect/tree/master/cypress                             | 6     | 1       |
