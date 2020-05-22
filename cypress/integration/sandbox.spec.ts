@@ -9,7 +9,8 @@ describe("Sandbox", () => {
     });
 
     cy.get("h1").then((header) => {
-      expect(header).to.eq("Sandbox");
+      const text = header.text();
+      expect(text).to.eq("Sandbox");
     });
   });
 });
